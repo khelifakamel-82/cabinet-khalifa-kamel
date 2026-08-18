@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Cabinet du Maître Khelifa Kamel — Conseil, accompagnement et défense juridique.">
+<title>Cabinet du Maître Khelifa Kamel</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#242424;background:#f6f3ed;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#17231f;color:#fff;box-shadow:0 2px 12px #0002}
+.nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-family:Georgia,serif;font-size:21px;font-weight:bold;letter-spacing:.2px}
+.logo span{display:block;font-family:Arial;font-size:11px;font-weight:normal;color:#d8c28b;letter-spacing:2px;text-transform:uppercase;margin-top:2px}
+nav{display:flex;gap:22px;font-size:14px}
+nav a{opacity:.92}
+nav a:hover{color:#d8c28b}
+.menu{display:none;background:none;border:1px solid #ffffff55;color:#fff;border-radius:7px;padding:8px 11px;font-size:20px}
+.hero{background:linear-gradient(135deg,#17231f 0%,#24372f 62%,#354b40 100%);color:#fff;padding:90px 0 85px}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:55px;align-items:center}
+.badge{display:inline-block;border:1px solid #d8c28b88;color:#e2cf9f;border-radius:30px;padding:7px 14px;font-size:12px;letter-spacing:1.2px;text-transform:uppercase}
+h1,h2,h3{font-family:Georgia,serif}
+h1{font-size:clamp(38px,6vw,62px);line-height:1.08;margin:22px 0 18px}
+.hero p{font-size:18px;color:#e8e6df;max-width:680px}
+.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-block;padding:13px 21px;border-radius:7px;font-weight:bold;font-size:14px;border:1px solid #d8c28b}
+.btn.primary{background:#d8c28b;color:#17231f}
+.btn.secondary{color:#fff;background:#ffffff12}
+.hero-card{background:#ffffff0e;border:1px solid #ffffff25;border-radius:16px;padding:30px;text-align:center}
+.hero-card .seal{width:92px;height:92px;margin:0 auto 18px;border:2px solid #d8c28b;border-radius:50%;display:grid;place-items:center;color:#d8c28b;font-family:Georgia,serif;font-size:38px}
+.hero-card strong{font-family:Georgia,serif;font-size:22px}
+section{padding:76px 0}
+.section-head{text-align:center;max-width:760px;margin:0 auto 42px}
+.section-head h2{font-size:36px;margin:0 0 10px;color:#24352e}
+.section-head p{margin:0;color:#666}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.card{background:#fff;border:1px solid #e4ded3;border-radius:14px;padding:28px;box-shadow:0 5px 20px #17231f0a}
+.card h3{font-size:23px;color:#24352e;margin:0 0 10px}
+.services{background:#eeeae2}
+.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.service{background:#fff;border-radius:13px;padding:25px;border:1px solid #e1dbd0}
+.icon{font-size:28px;margin-bottom:10px}
+.service h3{margin:0 0 8px;color:#24352e;font-size:20px}
+.service p{margin:0;color:#666;font-size:14px}
+.engagements{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.engagement{text-align:center;padding:24px 15px}
+.engagement .num{width:42px;height:42px;border-radius:50%;margin:0 auto 14px;background:#24352e;color:#d8c28b;display:grid;place-items:center;font-weight:bold}
+.engagement h3{margin:0 0 7px;color:#24352e}
+.engagement p{margin:0;color:#666;font-size:14px}
+.contact{background:#17231f;color:#fff}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.contact .section-head h2{color:#fff}
+.contact .section-head p{color:#d6d6d1}
+.contact-card{border:1px solid #ffffff22;background:#ffffff09;border-radius:14px;padding:28px}
+.contact-item{display:flex;gap:14px;margin:0 0 20px}
+.contact-item:last-child{margin-bottom:0}
+.contact-item .ci{font-size:21px;color:#d8c28b}
+.contact-item strong{display:block;color:#d8c28b;font-size:13px;text-transform:uppercase;letter-spacing:.8px}
+.contact-item span{display:block;color:#eee}
+footer{background:#101815;color:#bfc3bf;text-align:center;padding:24px 15px;font-size:13px}
+footer strong{color:#fff}
+@media(max-width:800px){
+nav{display:none;position:absolute;left:0;right:0;top:74px;background:#17231f;padding:15px 4%;flex-direction:column;gap:0}
+nav.open{display:flex}
+nav a{padding:12px 0;border-bottom:1px solid #ffffff12}
+.menu{display:block}
+.hero{padding:65px 0}
+.hero-grid,.about,.contact-grid{grid-template-columns:1fr}
+.hero-card{display:none}
+.service-grid{grid-template-columns:1fr 1fr}
+.engagements{grid-template-columns:1fr 1fr}
+section{padding:58px 0}
+}
+@media(max-width:500px){
+.service-grid{grid-template-columns:1fr}
+.engagements{grid-template-columns:1fr}
+h1{font-size:40px}
+.buttons .btn{width:100%;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container nav">
+<a class="logo" href="#accueil">Maître Khelifa Kamel<span>Cabinet d'avocat</span></a>
+<button class="menu" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Menu">☰</button>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#cabinet">Le cabinet</a>
+<a href="#services">Services</a>
+<a href="#engagements">Engagements</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="accueil">
+<div class="container hero-grid">
+<div>
+<span class="badge">Cabinet d'avocat</span>
+<h1>Cabinet du Maître Khelifa Kamel</h1>
+<p>Conseil, accompagnement et défense juridique avec sérieux, rigueur et confidentialité.</p>
+<div class="buttons">
+<a class="btn primary" href="#contact">Prendre contact</a>
+<a class="btn secondary" href="#services">Découvrir nos services</a>
+</div>
+</div>
+<div class="hero-card">
+<div class="seal">K</div>
+<strong>Maître Khelifa Kamel</strong>
+<p>Conseil &nbsp;•&nbsp; Défense &nbsp;•&nbsp; Accompagnement</p>
+</div>
+</div>
+</section>
+
+<section id="cabinet">
+<div class="container">
+<div class="section-head">
+<h2>Le cabinet</h2>
+<p>Un accompagnement juridique fondé sur l'écoute, la rigueur et la confidentialité.</p>
+</div>
+<div class="about">
+<div class="card">
+<h3>Un cadre professionnel</h3>
+<p>Un espace dédié à l'accueil, à l'écoute et au traitement confidentiel des dossiers. Chaque situation est étudiée avec attention afin d'apporter un accompagnement adapté aux circonstances de l'affaire.</p>
+</div>
+<div class="card">
+<h3>Défense et représentation</h3>
+<p>Accompagnement et représentation devant les juridictions selon la nature du dossier, avec une préparation méthodique des démarches et de la stratégie juridique.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="services" id="services">
+<div class="container">
+<div class="section-head">
+<h2>Nos services juridiques</h2>
+<p>Une prise en charge adaptée à la nature et aux besoins de chaque dossier.</p>
+</div>
+<div class="service-grid">
+<div class="service"><div class="icon">⚖️</div><h3>Droit pénal</h3><p>Conseil, assistance et défense des personnes concernées par une procédure pénale, à chaque étape de la procédure.</p></div>
+<div class="service"><div class="icon">🏠</div><h3>Droit civil</h3><p>Accompagnement dans les litiges civils, les obligations, la responsabilité et les différents contentieux.</p></div>
+<div class="service"><div class="icon">👨‍👩‍👧</div><h3>Droit de la famille</h3><p>Accompagnement dans les affaires familiales et préparation des démarches selon la situation du client.</p></div>
+<div class="service"><div class="icon">🏛️</div><h3>Contentieux administratif</h3><p>Conseil et accompagnement dans les procédures et litiges relevant de la justice administrative.</p></div>
+<div class="service"><div class="icon">📄</div><h3>Rédaction juridique</h3><p>Préparation de requêtes, mémoires, conclusions et autres actes juridiques selon les besoins du dossier.</p></div>
+<div class="service"><div class="icon">🤝</div><h3>Conseil juridique</h3><p>Analyse de votre situation, information sur les démarches possibles et orientation vers la stratégie appropriée.</p></div>
+</div>
+</div>
+</section>
+
+<section id="engagements">
+<div class="container">
+<div class="section-head">
+<h2>Nos engagements</h2>
+<p>Des principes essentiels au traitement sérieux de chaque dossier.</p>
+</div>
+<div class="engagements">
+<div class="engagement"><div class="num">01</div><h3>Écoute</h3><p>Comprendre précisément votre situation et vos objectifs.</p></div>
+<div class="engagement"><div class="num">02</div><h3>Rigueur</h3><p>Étudier chaque dossier avec méthode et attention aux détails.</p></div>
+<div class="engagement"><div class="num">03</div><h3>Confidentialité</h3><p>Préserver la confidentialité des échanges et des informations confiées.</p></div>
+<div class="engagement"><div class="num">04</div><h3>Défense</h3><p>Préparer une stratégie juridique adaptée aux circonstances de chaque affaire.</p></div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+<div class="section-head">
+<h2>Contact</h2>
+<p>Pour toute demande de rendez-vous ou information juridique, contactez le cabinet.</p>
+</div>
+<div class="contact-grid">
+<div class="contact-card">
+<div class="contact-item"><div class="ci">📞</div><div><strong>Téléphone</strong><span>À compléter</span></div></div>
+<div class="contact-item"><div class="ci">📍</div><div><strong>Adresse</strong><span>À compléter</span></div></div>
+<div class="contact-item"><div class="ci">✉️</div><div><strong>Email</strong><span>À compléter</span></div></div>
+</div>
+<div class="contact-card">
+<h3 style="font-size:26px;margin-top:0;color:#d8c28b">Prendre rendez-vous</h3>
+<p>Pour une première prise de contact, veuillez utiliser les coordonnées du cabinet. Les informations de contact peuvent être complétées directement dans ce fichier.</p>
+<a class="btn primary" href="#contact">Contacter le cabinet</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<strong>Cabinet du Maître Khelifa Kamel</strong><br>
+© 2026 — Tous droits réservés
+</footer>
+
+<script>
+document.querySelectorAll('nav a').forEach(a=>{
+a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open'));
+});
+</script>
+</body>
+</html>
